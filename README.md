@@ -12,7 +12,8 @@
   * README.mdの作成：e9256
 ### 担当内容
   * グラフ作成【担当：Mai-9403】   
-
+    *tableau Public*を用いて、オープンデータから、人口及び医療施設数のグラフを作成しました。
+    
   * ホームページ(index.html)の作成【担当：kkiirriinn・yamada-06】  
 
   * README.mdの作成【担当：e9256】  
