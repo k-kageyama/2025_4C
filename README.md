@@ -10,6 +10,13 @@
   * グラフ作成：Mai-9403
   * ホームページ(index.html)の作成：kkiirriinn・yamada-06
   * README.mdの作成：e9256
+### 担当内容
+  * グラフ作成【担当：Mai-9403】  
+
+  * ホームページ(index.html)の作成【担当：kkiirriinn・yamada-06】
+
+  * README.mdの作成【担当：e9256】
+     
 
 ## 実施した可視化手法及びリンク  
 ### 実施した可視化手法  
