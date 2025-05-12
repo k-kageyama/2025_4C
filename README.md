@@ -15,7 +15,8 @@
     *tableau Public*を用いて、オープンデータから人口及び医療施設数のグラフを作成しました。
 
   * ホームページ(index.html)の作成【担当：kkiirriinn・yamada-06】  
-
+    ホームページを見やすいように作成しました。
+    
   * README.mdの作成【担当：e9256】  
      *Markdown記法*について調査をし、それを基にREADME.mdの作成を行いました。
 
