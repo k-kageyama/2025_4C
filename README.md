@@ -11,12 +11,13 @@
   * ホームページ(index.html)の作成：kkiirriinn・yamada-06
   * README.mdの作成：e9256
 ### 担当内容
-  * グラフ作成【担当：Mai-9403】  
+  * グラフ作成【担当：Mai-9403】   
+    *tableau Public*を用いて、オープンデータから人口及び医療施設数のグラフを作成しました。
 
-  * ホームページ(index.html)の作成【担当：kkiirriinn・yamada-06】
+  * ホームページ(index.html)の作成【担当：kkiirriinn・yamada-06】  
 
-  * README.mdの作成【担当：e9256】
-     
+  * README.mdの作成【担当：e9256】  
+     *Markdown記法*について調査をし、それを基にREADME.mdの作成を行いました。
 
 ## 実施した可視化手法及びリンク  
 ### 実施した可視化手法  
