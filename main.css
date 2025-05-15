@@ -2,10 +2,33 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
   
+  header, footer {
+    text-align: center;
+    padding: 1.5em 0;
+    background: #ececec;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 2em;
+  }
+  
+  .section {
+    margin-bottom: 2.5em;
+  }
+
 
 h1 {
-    color: #375e97;
-    font-size: 2em;
+    color: #4a5480;
+    font-size: large;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border-bottom: 1px solid #375e97;
+}
+
+h2 {
+    color: #4a5480;
+    font-size: center;
     font-family: Georgia, "Times New Roman", Times, serif;
     border-bottom: 1px solid #375e97;
 }
@@ -20,3 +43,49 @@ body {
     h{
         color:white;
     }
+
+    .summary {
+        background: #f5fffa;
+        padding: 1em;
+        border-radius: 8px;
+      }
+      
+      .img-box {
+        text-align: center;
+        margin: 0.5em 0 1em 0;
+      }
+      
+      .img-box img {
+        width: 100%;
+        max-width: 900px;
+        border-radius: 0px;
+        box-shadow: 0 2px 8px #ccc;
+      }
+
+      .caption, .source {
+        font-size: 0.95em;
+        color: #555;
+        margin-top: 0.5em;
+      }
+      
+      .event {
+        background: #e7f4ff;
+        padding: 1em;
+        border-radius: 8px;
+        margin-top: 1em;
+      }
+
+//coplit
+
+      .hero {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        color: white;
+        font-size: 2em;
+    }
+    
