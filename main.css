@@ -58,12 +58,12 @@ h2 {
         border-radius: 8px;
       }
       
-      .img-box {
+      .graph {
         text-align: center;
         margin: 0.5em 0 1em 0;
       }
       
-      .img-box img {
+      .graph img {
         width: 100%;
         max-width: 900px;
         border-radius: 0px;
