@@ -177,4 +177,17 @@ body {
     border-bottom: 1px solid #a05273;
     outline: none;
   }
+
+  .modern-footer {
+    background-color: #fce9f3;
+    color: #a85d80;
+    font-family: 'Noto Serif JP', serif;
+    text-align: right;
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+    border-top: 1px solid #d97a9e; /* 上に薄い線 */
+    user-select: none;
+    margin-top: 3rem; /* 本文との余白 */
+  }
+  
   
