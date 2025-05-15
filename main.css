@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Noto Serif JP', serif;
-    background: #f7f9fc;
-    color: #333;
+    background: #fff0f5; /* ふわっと淡いピンク */
+    color: #4a3f4a; /* やさしいダークパープル寄りのグレー */
   }
   
   .container {
@@ -14,18 +14,26 @@ body {
     text-align: center;
   }
   
-  /* ページの題名 */
-  .page-title {
-    font-size: 2rem;
-    margin-bottom: 2.5rem;
-    color: #222;
-    font-weight: 600;
-  }
+.page-title {
+  font-size: 1.8rem;     /* 普通サイズくらい */
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-family: 'Noto Serif JP', serif;
+  color: #d977a1;        /* やわらかピンク */
+  text-shadow:
+    1px 1px 3px rgba(217, 119, 161, 0.3);
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-style: normal;
+  border-bottom: 2px solid #f4c1d6;
+  padding-bottom: 0.3rem;
+}
+
   
   /* グラフ前の文章 */
   .intro-text {
     font-size: 1.1rem;
-    color: #444;
+    color: #7d5a6a;
     margin-bottom: 2rem;
     line-height: 1.6;
     text-align: left;
@@ -33,10 +41,10 @@ body {
   
   /* グラフの枠 */
   .image-box {
-    background: #ffffff;
-    padding: 2rem 2rem 2.5rem;
+    background: #fff8fb;
+    padding: 1.5rem 2rem 1.5rem;
     border-radius: 1rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 18px rgba(217, 119, 161, 0.15);
     margin-bottom: 2rem;
     text-align: center;
   }
@@ -46,7 +54,7 @@ body {
     max-width: 700px;
     width: 100%;
     border-radius: 0.8rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 2px 10px rgba(217, 119, 161, 0.12);
     cursor: zoom-in;
     display: block;
     margin: 0 auto 1.2rem auto;
@@ -54,16 +62,19 @@ body {
   
   /* グラフタイトル（画像下） */
   .graph-title {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin: 0;
-    color: #222;
-    font-weight: 500;
+    color: #a85d80;
+    font-weight: 600;
+    font-family: 'Noto Serif JP', serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
   }
   
   /* グラフ後の文章 */
   .post-text {
     font-size: 1.05rem;
-    color: #444;
+    color: #7d5a6a;
     margin-bottom: 2rem;
     line-height: 1.6;
     text-align: left;
@@ -72,11 +83,11 @@ body {
   /* キャプション */
   .caption {
     font-size: 1rem;
-    color: #555;
+    color: #946d81;
     line-height: 1.7;
     padding: 1rem 1.2rem;
-    border-left: 4px solid #7a7a7a;
-    background: #f0f0f0;
+    border-left: 4px solid #d97a9e;
+    background: #fce9f3;
     max-width: 800px;
     margin: 0 auto;
     text-align: left;
@@ -103,7 +114,7 @@ body {
     max-width: 90%;
     max-height: 80vh;
     border-radius: 1rem;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 20px rgba(217, 119, 161, 0.8);
   }
   
   .modal-close {
@@ -122,17 +133,48 @@ body {
     color: #ddd;
   }
   
-
-  .page-title {
-    font-size: 2.2rem;
-    margin-bottom: 3rem;
-    color: #4a4a8a;
+  /* 参考URLセクション */
+  .references {
+    max-width: 800px;
+    margin: 2rem auto 4rem;
+    padding: 1.5rem 2rem;
+    background: #f9e9f0;
+    border-radius: 1rem;
+    box-shadow: 0 3px 15px rgba(217, 119, 161, 0.15);
+    font-family: 'Noto Serif JP', serif;
+    color: #9b6282;
+    text-align: left;
+  }
+  
+  .references h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
     font-weight: 700;
-    text-shadow:
-      2px 2px 4px rgba(74, 74, 138, 0.4),
-      0 0 8px rgba(120, 120, 200, 0.6);
-    background: linear-gradient(135deg, #8a8aff, #4a4a8a);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #b67398;
+  }
+  
+  .references ul {
+    list-style-type: disc;
+    padding-left: 1.2rem;
+  }
+  
+  .references li {
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  .references a {
+    color: #d97a9e;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .references a:hover,
+  .references a:focus {
+    color: #a05273;
+    border-bottom: 1px solid #a05273;
+    outline: none;
   }
   

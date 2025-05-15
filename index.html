@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>都道府県別 人口と病院数の比較</title>
+  <title>C班のホームページ</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="main.css" />
 </head>
 <body>
   <div class="container">
     <header>
-      <h1 class="page-title">都道府県別 人口と病院数の比較グラフ</h1>
+      <h1 class="page-title">都道府県別 人口と医療施設数の比較グラフ</h1>
     </header>
 
     <p class="intro-text">
-      以下のグラフは、都道府県ごとの人口と病院数を比較したものです。地域差や傾向を読み取る参考にしてください。
+      以下のグラフは、都道府県ごとの人口と医療施設数を比較したものです。地域差や傾向を読み取る参考にしてください。
     </p>
 
     <div class="image-box">
@@ -24,7 +24,7 @@
         id="graphImage"
         class="graph-image"
       />
-      <h2 class="graph-title">都道府県別 人口と病院数</h2>
+      <h2 class="graph-title">都道府県別 人口と医療施設数</h2>
     </div>
 
     <p class="post-text">
@@ -64,5 +64,30 @@
       }
     };
   </script>
+
+  <!-- 参考URLセクション -->
+<section class="references">
+    <h3>グラフに使用したオープンデータリンク</h3>
+    <ul>
+      <li>
+        人口：
+        <a href="https://www.e-stat.go.jp/stat-search/database?page=1&layout=datalist&cycle=7&toukei=00450011&tstat=000001028897&tclass1=000001053058&tclass2=000001053061&tclass3=000001053063&tclass4val=0&statdisp_id=0003411562" target="_blank" rel="noopener noreferrer">
+          人口動態調査 / 人口動態統計 確定数 総覧
+        </a>
+      </li>
+      <li>
+        医療施設数：
+        <a href="https://www.e-stat.go.jp/stat-search/database?page=1&layout=datalist&cycle=7&toukei=00450021&tstat=000001030908&tclass1=000001222880&tclass2=000001222882&tclass3val=0&statdisp_id=0004024800" target="_blank" rel="noopener noreferrer">
+          医療施設調査 / 令和５年医療施設（静態・動態）調査 都道府県編
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  
+<footer class="modern-footer">
+    <p>&copy; C班</p>
+</footer>
+
 </body>
 </html>
