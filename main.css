@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Noto Serif JP', serif;
-    background: #fff0f5; /* ふわっと淡いピンク */
+    background: #f0f9ff; /* 水色 */
     color: #4a3f4a; /* やさしいダークパープル寄りのグレー */
   }
   
@@ -19,13 +19,13 @@ body {
   margin-bottom: 2rem;
   font-weight: 600;
   font-family: 'Noto Serif JP', serif;
-  color: #d977a1;        /* やわらかピンク */
+  color: #779bd9;        /* やわらかい青 */
   text-shadow:
     1px 1px 3px rgba(217, 119, 161, 0.3);
   text-align: center;
   letter-spacing: 0.02em;
   font-style: normal;
-  border-bottom: 2px solid #f4c1d6;
+  border-bottom: 2px solid #c1c9f4;
   padding-bottom: 0.3rem;
 }
 
@@ -64,7 +64,7 @@ body {
   .graph-title {
     font-size: 1.3rem;
     margin: 0;
-    color: #a85d80;
+    color: #5d72a8;
     font-weight: 600;
     font-family: 'Noto Serif JP', serif;
     font-style: normal;
@@ -74,7 +74,7 @@ body {
   /* グラフ後の文章 */
   .post-text {
     font-size: 1.05rem;
-    color: #7d5a6a;
+    color: #5c5a7d;
     margin-bottom: 2rem;
     line-height: 1.6;
     text-align: left;
@@ -83,11 +83,11 @@ body {
   /* キャプション */
   .caption {
     font-size: 1rem;
-    color: #946d81;
+    color: #7c6d94;
     line-height: 1.7;
     padding: 1rem 1.2rem;
-    border-left: 4px solid #d97a9e;
-    background: #fce9f3;
+    border-left: 4px solid #7aa9d9;
+    background: #e9edfc;
     max-width: 800px;
     margin: 0 auto;
     text-align: left;
@@ -114,7 +114,7 @@ body {
     max-width: 90%;
     max-height: 80vh;
     border-radius: 1rem;
-    box-shadow: 0 0 20px rgba(217, 119, 161, 0.8);
+    box-shadow: 0 0 20px rgba(150, 119, 217, 0.8);
   }
   
   .modal-close {
@@ -142,7 +142,7 @@ body {
     border-radius: 1rem;
     box-shadow: 0 3px 15px rgba(217, 119, 161, 0.15);
     font-family: 'Noto Serif JP', serif;
-    color: #9b6282;
+    color: #6f629b;
     text-align: left;
   }
   
@@ -150,7 +150,7 @@ body {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: 700;
-    color: #b67398;
+    color: #7573b6;
   }
   
   .references ul {
@@ -165,7 +165,7 @@ body {
   }
   
   .references a {
-    color: #d97a9e;
+    color: #857ad9;
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: all 0.3s ease;
@@ -173,19 +173,19 @@ body {
   
   .references a:hover,
   .references a:focus {
-    color: #a05273;
-    border-bottom: 1px solid #a05273;
+    color: #527fa0;
+    border-bottom: 1px solid #5262a0;
     outline: none;
   }
 
   .modern-footer {
-    background-color: #fce9f3;
-    color: #a85d80;
+    background-color: #e9ebfc;
+    color: #615da8;
     font-family: 'Noto Serif JP', serif;
     text-align: right;
     padding: 1rem 2rem;
     font-size: 0.9rem;
-    border-top: 1px solid #d97a9e; /* 上に薄い線 */
+    border-top: 1px solid #877ad9; /* 上に薄い線 */
     user-select: none;
     margin-top: 3rem; /* 本文との余白 */
   }
